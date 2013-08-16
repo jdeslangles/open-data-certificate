@@ -23,8 +23,7 @@ class CertificateTest < ActiveSupport::TestCase
     @certificate4.response_set.survey.update_attributes(full_title: 'France', published: true)
     @certificate5.response_set.survey.update_attributes(full_title: 'France', published: true)
 
-    @certificate4.response_set.update_attributes( aasm_state: "published")
-    @certificate5.response_set.update_attributes( aasm_state: "published")
+
 
   end
 
@@ -60,10 +59,13 @@ class CertificateTest < ActiveSupport::TestCase
   end
 
   test 'certificates are ordered by most recently created' do
-    assert_equal [@certificate5, @certificate4, @certificate3, @certificate2, @certificate1], Certificate.by_newest
+    assert_equal @certificate5, Certificate.by_newest.first
   end
 
   test 'latest returns the most recently published ' do
-    assert_equal [@certificate5], Certificate.latest
+    @certificate5.response_set.publish!
+    assert_equal @certificate5.id, Certificate.latest.id
   end
+
+
 end
