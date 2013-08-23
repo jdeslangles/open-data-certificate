@@ -12,18 +12,18 @@ fr:
 
   menu:
     browse_all_certificates: Browse all certificates
-    create_certificate: Create new certificate
-    my_certificates: My certificates
+    create_certificate: Créer un nouveau certificat
+    my_certificates: Mes certificats
 
   footmenu:
     cookies:        Cookie policy
     feedback:       Feedback
     privacy:        Privacy policy
-    about:          About
-    get_in_touch:   Get in touch
+    about:          À propos
+    get_in_touch:   Contactez-nous
     terms:          Terms of use
     odi_name:       Open Data Institute
-    company_title:  Company
+    company_title:  Compagnie
     vat_title:      VAT
     cc_title:       Creative Commons Licence
 
@@ -51,11 +51,11 @@ fr:
 
   questionnaire_header: 'All open data is good, but some is better than others. This tool gives you a certificate that will help people understand the open data you are publishing.'
 
-  questionnaire_footer: Improving Your Open Data
+  questionnaire_footer: Améliorer votre Open Data
   questionnaire_footer_extra: You can improve the way you are publishing open data to make it more useful.
 
   # more basic/general translations
-  help: Help
+  help: Aide
 
   # translations relating to the questionnaires
   improvements:
@@ -67,10 +67,10 @@ fr:
     pilot_6: You should provide a contact email address so that reusers with concerns about disclosure of personal details within the data can get in touch.
 
   dashboard:
-    archived: Archived
+    archived: Archivé
     edit_and_publish: Edit and publish
     embed_code: Embed code
-    page_title: My certificates
+    page_title: Mes certificats
     latest_published_certificate: Latest published certificate
     no_certificates_to_show: You don't have any certificates yet
     copy_certificate:
@@ -104,14 +104,14 @@ fr:
 
   homepage:
     log_in: Log in
-    dont_have_an_account: Don't have an account?
-    register_later_message: Don't worry, you can register later to save your work.
-    continue_without_registering: Continue without registering
-    creating_questionnaire: Creating new questionnaire...
-    create_an_account: Create an account
-    title: Certify your open data
+    dont_have_an_account: Vous n'avez pas de compte?
+    register_later_message: Pas de soucis, vous pouvez créer votre compte plus tard pour enrigistrer votre progrès.
+    continue_without_registering: Continuer sans créer de compte
+    creating_questionnaire: Nouveau questionnaire...
+    create_an_account: Créer un compte
+    title: Certifier votre open data
     tagline: Show that it’s easy to <strong>find,</strong> <strong>use</strong> and <strong>share</strong>
-    start_new_certificate: Create a certificate
+    start_new_certificate: Créer un certificat
     browse_certificates: Browse certificates
     browse_all_new_certificates: Browse all certificates
     how_it_works: How it works
@@ -186,7 +186,7 @@ fr:
     already_have_account: Already have an account?
 
   about:
-    heading_about: About
+    heading_about: À propos
 
   contact:
     heading_contact: Contact the ODI
@@ -196,9 +196,9 @@ fr:
     server_error: A server error occurred
 
   improvements:
-    heading: How can I improve my open data?
-    return_to_questionnaire: Return to questionnaire
-    return_to_dashboard: Return to dashboard
+    heading: Comment puis-je améliorer mon open-data?
+    return_to_questionnaire: Retour au questionnaire
+    return_to_dashboard: Return au tableau de bord
     levels:
       basic:
         title: The basics
